@@ -65,9 +65,22 @@
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultButton"
-        app:layout_constraintVertical_bias="0.179" />
+        app:layout_constraintVertical_bias="0.182" />
+
+    <TextView
+        android:id="@+id/textPounds"
+        android:layout_width="122dp"
+        android:layout_height="45dp"
+        android:text="Pounds"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result"
+        app:layout_constraintVertical_bias="0.094" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
