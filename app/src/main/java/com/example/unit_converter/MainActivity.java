@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         EditText userValue = findViewById(R.id.UserValue);
         Button button = findViewById(R.id.resultButton);
         TextView resultValue = findViewById(R.id.result);
