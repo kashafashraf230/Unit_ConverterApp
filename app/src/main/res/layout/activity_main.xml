@@ -58,4 +58,16 @@
         app:layout_constraintTop_toBottomOf="@+id/UserValue"
         app:layout_constraintVertical_bias="0.189" />
 
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="126dp"
+        android:layout_height="41dp"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultButton"
+        app:layout_constraintVertical_bias="0.179" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
